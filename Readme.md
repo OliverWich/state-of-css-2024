@@ -1,5 +1,5 @@
 # Playground & Demo // State of CSS Workshop // 2024
-Workshop im Rahmen des Moduls Web Technologien: View Transitions, Scroll-Driven Animations und mehr.
+Workshop im Rahmen des Moduls Web Technologien: View Transitions, Scroll-Driven Animations und mehr. Hier gibt es die [Slides zum Workshop](https://cnoss.github.io/slides/presentations/misc/css-2024/).
 
 ## Disclaimer
 Die Inhalte für diese Demo Anwendungsbeispiel sind dem [Cranach Digital Archive](https://lucascranach.org) entliehen und nur für diesen Workshop bestimmt. Sie dürfen nicht verändert, weitergegeben oder veröffentlicht werden. Danke! 🙌🏽
