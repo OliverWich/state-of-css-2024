@@ -6,9 +6,15 @@ Die Inhalte für diese Demo Anwendungsbeispiel sind dem [Cranach Digital Archive
 
 ## Struktur des Repos
 
-Die Challenges sind im Wurzelverzeichnis als einzelne Markdown Dateien abgelegt. Folgende Challenges sind verfügbar:
+Die Challenges sind im Wurzelverzeichnis als einzelne Markdown Dateien abgelegt. Folgende Challenge machen wir gemeinsam:
+- [Add Progress Bar](progress-bar.md)
 
-- [Broken Grid](broken-grid.md)
+Des Weiteren stellen folgende Challenges zur Verfügung:
+- [Implement Broken Grid Layouts](broken-grid.md)
+- [Add View Transitions](view-transition.md)
+- [Animate Wall of Masterpieces]()
+- [Animate Masterpiece Roll]()
+- [Design Popover Transition]()
 
 
 ## Wo starte ich was?
@@ -22,8 +28,6 @@ Es reicht in das jeweile Verzeichnis zu gehen und einen Web-Server zu starten, z
 ## Wo muss ich Änderungen machen?
 
 Das ist in der jeweiligen Challenge beschrieben. Grundsätzlich sind aber nur Änderungen in den CSS Dateien zu machen. Diese finden sich im Verzeichnis `assets/styles/`.
-
-
 
 
 ## Pfade

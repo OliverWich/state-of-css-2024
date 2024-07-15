@@ -1,4 +1,4 @@
-# Broken Grid Challenge
+# Implement Broken Grid Layouts Challenge
 
 Bei den Masterpieces gibt verschiedene Layouttypen welche sich an den verschiedenen Seitenverhältnissen der Bilder orientieren:  Square, Landscape und Portrait.
 
