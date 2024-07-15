@@ -1,8 +1,8 @@
 # Broken Grid Challenge
 
-Es gibt verschiedene Layouttypen welche sich an den verschiedenen Seitenverhältnissen der Bilder orientieren:  square, landscape und portrait.
+Bei den Masterpieces gibt verschiedene Layouttypen welche sich an den verschiedenen Seitenverhältnissen der Bilder orientieren:  Square, Landscape und Portrait.
 
-Landscape und portrait haben jeweils noch zwei Varianten. Diese werden wie folgt im CSS abgebildet:
+Landscape und Portrait haben jeweils noch zwei Varianten. Alle Varianten werden wie folgt im CSS abgebildet:
 
 ```css
 /* Ratio 1 zu 2 */
@@ -56,7 +56,7 @@ Landscape und portrait haben jeweils noch zwei Varianten. Diese werden wie folgt
   }
 ```
 
-## Was ist das Ziel?
+## Was ist die Challenge?
 Es sollen für die verschiedenen Layouttypen Broken Grid Layouts implementiert werden. Diese könnten so aussehen, wie die folgenden Beispiele.
 
 - [square](./images/challenges/broken-grid-square.jpg)
@@ -70,7 +70,7 @@ Es sollen für die verschiedenen Layouttypen Broken Grid Layouts implementiert w
 file://./masterpieces-playground/assets/styles/layouts/single-masterpiece.css
 
 ## Beispielinhalte
-Mit diesen Beispielen kann die Implementierung überprüft werden.
+Mit diesen Masterpieces kann die Implementierung überprüft werden.
 
 ### Square
 http://0.0.0.0:4000/de/DE_KSW_G818/
