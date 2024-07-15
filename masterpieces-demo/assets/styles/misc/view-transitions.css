@@ -45,11 +45,11 @@
   }
 }
 
-::view-transition-old(root) {
+::view-transition-old(*) {
   animation: 0.6s ease-in both move-out;
 }
 
-::view-transition-new(root) {
+::view-transition-new(*) {
   animation: 0.6s ease-in both move-in;
 }
 
