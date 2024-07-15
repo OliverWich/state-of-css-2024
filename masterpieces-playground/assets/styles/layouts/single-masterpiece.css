@@ -68,10 +68,10 @@
   /* stylelint-disable */
   &[data-ratio="ratio-1-to-2"] {
     .visual-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
     .text-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
   }
 
@@ -80,10 +80,10 @@
   ========================================================================== */
   &[data-ratio="ratio-3-to-4"] {
     .visual-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
     .text-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
   }
 
@@ -91,10 +91,10 @@
   ========================================================================== */
   &[data-ratio="ratio-1-to-1"] {
     .visual-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
     .text-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
   }
 
@@ -103,10 +103,10 @@
   ========================================================================== */
   &[data-ratio="ratio-4-to-3"] {
     .visual-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
     .text-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
   }
 
@@ -114,10 +114,10 @@
   ========================================================================== */
   &[data-ratio="ratio-2-to-1"] {
     .visual-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
     .text-content {
-      /* Hier sollten gearbeitet werden. */
+      /* Hier sollte gearbeitet werden. */
     }
   }
   /* stylelint-enable */

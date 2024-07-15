@@ -13,6 +13,7 @@ Des Weiteren stellen folgende Challenges zur Verfügung:
 - [Implement Broken Grid Layouts](broken-grid.md)
 - [Add View Transitions](view-transition.md)
 - [Animate Masterpiece Roll](animate-masterpiece-roll.md)
+- [Animate Cranach Facts](animate-facts.md)
 - [Animate Wall of Masterpieces]()
 - [Design Popover Transition]()
 
