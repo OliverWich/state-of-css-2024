@@ -10,9 +10,9 @@
   
   p{
     max-width: 60ch;
-    font-size: var(--size-l);
     animation: linear detail both;
-
+    font-size: var(--size-l);
+    
     /* Hier sollte gearbeitet werden. */
   }
 }

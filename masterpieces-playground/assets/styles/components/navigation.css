@@ -1,3 +1,42 @@
+/* Settings Toolbar
+############################################################################ */
+
+.settings-toolbar {
+  position: absolute;
+  top: var(--fluid-space-s);
+  right: var(--fluid-space-s);
+
+  .settings-list {
+    display: inline-grid;
+    gap: 0.5rem;
+
+    button {
+      height: 2.5rem;
+      border: none;
+      aspect-ratio: 1/1;
+      background: transparent;
+      color: var(--color-fg);
+      font-size: var(--size-l);
+      line-height: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+:root{
+  &:has(input[value="dark"]:checked){
+    color-scheme: dark;
+  }
+
+  &:has(input[value="light"]:checked){
+    color-scheme: light;
+  }
+}
+
+
 /* Navigation
 ############################################################################ */
 
@@ -60,15 +99,15 @@
   background: var(--color-bg);
   color: var(--color-fg);
   line-height: 2;
-  opacity: 0;
   transform: translateY(-50px);
-  transition: transform 0.5s, opacity 0.5s, display 0.5s;
 
+  /* stylelint-disable */
   button {
     border: none;
     background: none;
     filter: grayscale(1);
   }
+  /* stylelint-enable */
 
   label {
     width: 100%;
@@ -78,10 +117,6 @@
   select {
     padding: 0.25rem 0.5rem;
     font-size: 1rem;
-  }
-
-  &::backdrop {
-    background: rgb(0 0 0 / 70%);
   }
 
   .sr-only:not(:focus, :active) {
@@ -126,53 +161,15 @@
     margin-top: 1rem;
   }
 
-  &:popover-open {
-    @starting-style {
-      opacity: 0;
-      transform: translateY(20px) scale(2);
-    }
+  /* Hier wird gearbeitet */
 
-    opacity: 1;
-    transform: translateY(0);
-  }
+  /* Add Backdrop */
+
+  /* Add CSS Transition */
+
+  /* Add Popover Open State with starting style */
+
 }
 
 
-/* Settings Toolbar
-############################################################################ */
-
-.settings-toolbar {
-  position: absolute;
-  top: var(--fluid-space-s);
-  right: var(--fluid-space-s);
-
-  .settings-list {
-    display: inline-grid;
-    gap: 0.5rem;
-
-    button {
-      height: 2.5rem;
-      border: none;
-      aspect-ratio: 1/1;
-      background: transparent;
-      color: var(--color-fg);
-      font-size: var(--size-l);
-      line-height: 0;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
-}
-
-:root{
-  &:has(input[value="dark"]:checked){
-    color-scheme: dark;
-  }
-
-  &:has(input[value="light"]:checked){
-    color-scheme: light;
-  }
-}
 

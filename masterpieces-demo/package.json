@@ -7,7 +7,8 @@
     "server": "npx light-server -s .  -p 4001 -w \"./**\"",
     "lint": "stylelint assets/styles/**/*.css",
     "lint:fix": "stylelint assets/styles/**/*.css --fix",
-    "dev": "npm-run-all --parallel server lint"
+    "dev": "npm-run-all --parallel server lint",
+    "quiet": "npm-run-all --parallel server"
   },
   "repository": {
     "type": "git",

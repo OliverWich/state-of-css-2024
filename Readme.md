@@ -15,7 +15,7 @@ Des Weiteren stellen folgende Challenges zur Verfügung:
 - [Animate Masterpiece Roll](animate-masterpiece-roll.md)
 - [Animate Cranach Facts](animate-facts.md)
 - [Animate Wall of Masterpieces](animate-wall.md)
-- [Design Popover Transition]()
+- [Design Popover Transition](popover-transition.md)
 
 
 ## Wo starte ich was?
@@ -25,6 +25,8 @@ Im Verzeichnis `masterpieces-demo` befindet sich die *fertige* Version des digit
 ## Wie starte ich eine Version?
 
 Es reicht in das jeweile Verzeichnis zu gehen und einen Web-Server zu starten, z.B. den Embedded Server von Visual Studio Code. Alternativ kann aber auch im jeweiligen Verzeichnis der Version ein `npm install` ausgeführt werden und ein Dev Server via `npm run dev` gestartet werden. In diesem Fall wird auch [Stylelint](https://stylelint.io) installiert und gestartet.
+
+Falls der Linter nervt kann der Server auch via `npm run quiet`gestartet werden. Dann eben ohne stylelint.
 
 ## Wo muss ich Änderungen machen?
 
