@@ -1,4 +1,4 @@
-# Demo // State of CSS Workshop // 2024
+# Playground & Demo // State of CSS Workshop // 2024
 Workshop im Rahmen des Moduls Web Technologien: View Transitions, Scroll-Driven Animations und mehr.
 
 ## Disclaimer
@@ -8,7 +8,7 @@ Die Inhalte für diese Demo Anwendungsbeispiel sind dem [Cranach Digital Archive
 
 Die Challenges sind im Wurzelverzeichnis als einzelne Markdown Dateien abgelegt. Folgende Challenges sind verfügbar:
 
-- [Broken Grid](broken-grid)
+- [Broken Grid](broken-grid.md)
 
 
 ## Wo starte ich was?
