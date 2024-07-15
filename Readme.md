@@ -72,12 +72,20 @@ Das ist in der jeweiligen Challenge beschrieben. Grundsätzlich sind aber nur Ä
 - [Popover API, MDN](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)
 - [Introducing the popover API, Chrome for Developers](https://developer.chrome.com/blog/introducing-popover-api)
 
-### zum ganzen Themenblock
+### Mehr zum Themenblock
 - [The Lean Web](https://leanweb.dev)
 - [What's new in the Web, Google I/O Talk from Rachel Andrew](https://io.google/2024/explore/6d6b2a35-ae3a-4f73-b40d-9dc4a8cf0df4/)
 - [Multi-page application View Transitions are here, Google I/O Talk from Bramus Van Damme](https://io.google/2024/explore/8ae18b72-028e-4722-9a05-4a480048e629/)
 - [The state of CSS and Web UI, Google I/O Talk from Una Kravets](https://io.google/2024/explore/83764202-1ca2-4491-a731-c4d3701624d4/)
 
+## Playgrounds
+
+Folgende Playgrounds zum Workshop sind auf Codepen verfügbar:
+- [CSS Broken Grid Demo](https://codepen.io/cnoss/pen/poXJXeV)
+- [CSS Popover Demo](https://codepen.io/cnoss/pen/PorqvmY)
+- [CSS Scroll Driven View Timeline Demo](https://codepen.io/cnoss/pen/PorqvmY)
+- [CSS Scroll Driven Animation Demo](https://codepen.io/cnoss/pen/VwJLxNB)
+- [CSS Transition Demo](https://codepen.io/cnoss/pen/YzoXeXR)
 
 ## Fragen oder Anregungen bitte an
 [Christian Noss](https://christiannoss.de)
