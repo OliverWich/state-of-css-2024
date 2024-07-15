@@ -52,23 +52,19 @@
 /* Animation
 ############################################################################ */
 
+/* Hier wird gearbeitet */
 
-@keyframes rotate-in {
-	0% {
-    opacity: 0;
-		transform: rotateY(90deg)  translateZ(0) scale(0);
-	}
+/* Das Markup hat folgende Struktur:
+<section class="wall page" id="wall">
+  <div class="image-wrap">
+    <a href="…">
+      <img src="…" alt="…">
+    </a>
+  </div>
+  …
+</section>
+*/
 
-  100% {
-    opacity: 1;
-    transform: rotateY(0deg) translateZ(100px) scale(1);
-  }
-}
+/* Add Keyframe Animations */
 
-.wall > * {
-	animation: linear rotate-in both;
-	animation-range: entry 1% cover 50%;
-	animation-timeline: --revealing-image;
-	view-timeline-axis: block;
-	view-timeline-name: --revealing-image;
-}
+/* Attach the animation to the wall elements. */
