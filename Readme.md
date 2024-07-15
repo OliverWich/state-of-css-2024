@@ -26,24 +26,11 @@ Im Verzeichnis `masterpieces-demo` befindet sich die *fertige* Version des digit
 
 Es reicht in das jeweile Verzeichnis zu gehen und einen Web-Server zu starten, z.B. den Embedded Server von Visual Studio Code. Alternativ kann aber auch im jeweiligen Verzeichnis der Version ein `npm install` ausgeführt werden und ein Dev Server via `npm run dev` gestartet werden. In diesem Fall wird auch [Stylelint](https://stylelint.io) installiert und gestartet.
 
-Falls der Linter nervt kann der Server auch via `npm run quiet`gestartet werden. Dann eben ohne stylelint.
+Falls der Linter nervt kann der Server auch via `npm run quiet` gestartet werden. Dann eben ohne stylelint.
 
 ## Wo muss ich Änderungen machen?
 
 Das ist in der jeweiligen Challenge beschrieben. Grundsätzlich sind aber nur Änderungen in den CSS Dateien zu machen. Diese finden sich im Verzeichnis `assets/styles/`.
-
-
-## Pfade
-- Detailinfos & Facts zu Cranach: file://./assets/styles/components/detail.css
-- Masterpieces Landing Page: file://./assets/styles/layouts/masterpiece.css
-- Wall of Masterpieces: file://./assets/styles/layouts/wall.css
-
-
-## Aufgaben
-
-- Animate Wall
-
-
 
 ## Weitere Infos & Anregungen
 
