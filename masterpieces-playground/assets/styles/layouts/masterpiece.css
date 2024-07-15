@@ -107,56 +107,17 @@
 /* Animation
 ############################################################################ */
 
-@keyframes reveal {
-	0% {
-		clip-path: inset(50% 50% 50% 50%);
-    opacity: 0;
-	}
+/* Keyframe Animationen addieren */
 
-	60% {
-		clip-path: inset(0% 0% 0% 0%);
-    opacity: 1;
-	}
-
-  70% { 
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(0);
-    
-  }
-}
-
+/* Diese Klasse soll für die Bildanimationen verwendet werden. */
+/* stylelint-disable */
 .revealing-image {
-	animation: linear reveal both;
-	animation-range: entry 25% cover 90%;
-	animation-timeline: --revealing-image;
-	view-timeline-axis: block;
-	view-timeline-name: --revealing-image;
+
 }
 
-@keyframes scale {
-  0%{
-    opacity: 0;
-    transform: scale(1);
-  }
 
-  40% {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-
+/* Diese Klasse soll für die Textanimationen verwendet werden. */
 .text-fade {
-	animation: linear scale both;
-	animation-range: entry 25% cover 90%;
-	animation-timeline: --text-fade;
-	view-timeline-axis: block;
-	view-timeline-name: --text-fade;
+  
 }
+/* stylelint-enable */

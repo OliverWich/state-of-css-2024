@@ -12,8 +12,8 @@ Die Challenges sind im Wurzelverzeichnis als einzelne Markdown Dateien abgelegt.
 Des Weiteren stellen folgende Challenges zur Verfügung:
 - [Implement Broken Grid Layouts](broken-grid.md)
 - [Add View Transitions](view-transition.md)
+- [Animate Masterpiece Roll](animate-masterpiece-roll.md)
 - [Animate Wall of Masterpieces]()
-- [Animate Masterpiece Roll]()
 - [Design Popover Transition]()
 
 
