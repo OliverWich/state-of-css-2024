@@ -68,10 +68,14 @@
   /* stylelint-disable */
   &[data-ratio="ratio-1-to-2"] {
     .visual-content {
-      /* Hier sollte gearbeitet werden. */
+      grid-column: 2 / 3;
+      grid-row: 1 / 6;
     }
+
     .text-content {
-      /* Hier sollte gearbeitet werden. */
+      background-color: var(--color-bg);
+      grid-column: 3 / 5;
+      grid-row: 4 / 6;
     }
   }
 
@@ -80,10 +84,14 @@
   ========================================================================== */
   &[data-ratio="ratio-3-to-4"] {
     .visual-content {
-      /* Hier sollte gearbeitet werden. */
+      grid-column: 2 / 4;
+      grid-row: 1 / 6;
     }
+
     .text-content {
-      /* Hier sollte gearbeitet werden. */
+      background-color: var(--color-bg);
+      grid-column: 4 / 6;
+      grid-row: 4 / 6;
     }
   }
 
@@ -91,10 +99,14 @@
   ========================================================================== */
   &[data-ratio="ratio-1-to-1"] {
     .visual-content {
-      /* Hier sollte gearbeitet werden. */
+      grid-column: 1 / 5;
+      grid-row: 1 / 6;
     }
+
     .text-content {
-      /* Hier sollte gearbeitet werden. */
+      background-color: var(--color-bg);
+      grid-column: 4 / 6;
+      grid-row: 4 / 6;
     }
   }
 
@@ -103,10 +115,14 @@
   ========================================================================== */
   &[data-ratio="ratio-4-to-3"] {
     .visual-content {
-      /* Hier sollte gearbeitet werden. */
+      grid-column: 1 / 6;
+      grid-row: 1 / 6;
     }
+
     .text-content {
-      /* Hier sollte gearbeitet werden. */
+      background-color: var(--color-bg);
+      grid-column: 4 / 6;
+      grid-row: 4 / 6;
     }
   }
 
@@ -114,10 +130,14 @@
   ========================================================================== */
   &[data-ratio="ratio-2-to-1"] {
     .visual-content {
-      /* Hier sollte gearbeitet werden. */
+      grid-column: 1 / 6;
+      grid-row: 1 / 4;
     }
+
     .text-content {
-      /* Hier sollte gearbeitet werden. */
+      background-color: var(--color-bg);
+      grid-column: 1 / 4;
+      grid-row: 3 / 6;
     }
   }
   /* stylelint-enable */
