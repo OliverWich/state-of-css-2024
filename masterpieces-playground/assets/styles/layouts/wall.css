@@ -30,7 +30,7 @@
     mix-blend-mode: lighten;
     object-fit: cover;
     object-position: top center;
-    
+
   }
 
   .image-wrap{
@@ -66,5 +66,26 @@
 */
 
 /* Add Keyframe Animations */
+@keyframes wall-appear {
+  from {
+      transform: scale(0) rotate3d(0, 1, 1, 90deg);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1) rotate3d(0, 1, 1, 0deg);
+      opacity: 1;
+  }
+}
 
 /* Attach the animation to the wall elements. */
+.image-wrap {
+  view-timeline-name: --appear-in-viewport;
+
+  animation-timeline: --appear-in-viewport;
+
+  animation-range: entry -10% cover 50%;
+
+  animation-duration: auto;
+  animation-timing-function: linear;
+  animation-name: wall-appear;
+}
