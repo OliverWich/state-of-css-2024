@@ -83,7 +83,7 @@ Das ist in der jeweiligen Challenge beschrieben. Grundsätzlich sind aber nur Ä
 Folgende Playgrounds zum Workshop sind auf Codepen verfügbar:
 - [CSS Broken Grid Demo](https://codepen.io/cnoss/pen/poXJXeV)
 - [CSS Popover Demo](https://codepen.io/cnoss/pen/PorqvmY)
-- [CSS Scroll Driven View Timeline Demo](https://codepen.io/cnoss/pen/PorqvmY)
+- [CSS Scroll Driven View Timeline Demo](https://codepen.io/cnoss/pen/QWXbVRw)
 - [CSS Scroll Driven Animation Demo](https://codepen.io/cnoss/pen/VwJLxNB)
 - [CSS Transition Demo](https://codepen.io/cnoss/pen/YzoXeXR)
 
