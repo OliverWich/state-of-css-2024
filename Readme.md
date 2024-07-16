@@ -90,7 +90,3 @@ Folgende Playgrounds zum Workshop sind auf Codepen verfügbar:
 ## Fragen oder Anregungen bitte an
 [Christian Noss](https://christiannoss.de)
 
-## Spickzettel
-- Folienaufbau erklären
-- Repo erklären
-- Ablauf erklären
